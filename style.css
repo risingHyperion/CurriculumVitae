@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left-col {
+    flex-basis: 30%;
+    background: #e80707;
+    height: 3400px;
+    position: relative;
+}
+
+.logo-cv {
+    height: 80px;
+    margin: 30px;
+}
+
+.title {
+    margin: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.titlu-icon {
+    display: flex;
+    position: absolute;
+    margin: 0 40px;
+}
+
+.white-bar {
+    background: white;
+    width: 280px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 180px;
+}
+
+.description {
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.quote1 {
+    width:70px;
+    margin-bottom: 30px;
+}
+
+.quote2 {
+    width:70px;
+    margin-left: 170px;
+    margin-top:30px;
+}
+
+.right-col {
+    flex-basis: 70%;
+    height: 100%;
+    position: relative;
+}
+
+.nav-bar {
+    display: flex;
+    margin-top: 40px;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding:0 40px;
+    font-weight: bold;
+    font-size: bold;
+    font-family: 'Baskervville';
+    font-size: 1.2em;
+    list-style: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Baskervville';
+}
+
+.red-bar {
+    background: red;
+    width: 280px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 180px;
+}
+
+.red-bar span{
+    background: red;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    left: 287px;
+    top: 0px;
+}
+
+.description {
+    width: 300px;
+    top: 220px;
+    left:50px;
+    position: absolute;
+    color: white;
+}
+
+.description p {
+    font-family: 'Baskervville';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.profile {
+    height: 350px;
+    position: absolute;
+    left: 700px;
+    top: 250px;
+}
+
+.profile-icon {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 625px;
+}
+
+
+.profile-word {
+    position: absolute;
+    float: right;
+    top:425px;
+    left: 520px;
+    font-size: 27px;
+    font-weight: 700;
+    color: #A4A4A4;
+    transform: rotate(-90deg);
+    letter-spacing: 6px;
+}
+
+.text-box {
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    width: 40%;
+
+}
+
+.text-box h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-box p {
+    font-family: 'Baskervville';
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.sectiuni {
+    padding-top: 550px;
+    padding-left: 40px;
+}
+#educatie {
+    padding-bottom: 150px;
+    ;
+}
+
+#experienta {
+    padding-bottom: 150px;
+    ;
+}
+
+#aptitudini {
+    padding-bottom: 150px;
+    ;
+}
+
+#educatie h4,
+#experienta h4,
+#aptitudini h4,
+#proiecte h4 {
+    padding-left:30px;
+    padding-top: 30px;
+}
+
+#educatie h2,
+#experienta h2,
+#aptitudini h2,
+#proiecte h2 {
+    border-style: solid;
+    border-color: #e80707;
+    width: 200px;
+    padding: 15px;
+}
+
+#educatie p,
+#experienta p,
+#aptitudini p,
+#proiecte p {
+    padding-left:30px;
+    padding-top: 15px;
+    font-family: 'Baskervville';
+}
+
+.separation-bar {
+    width: 100%;
+    height: 3px;
+    background: #e80707;
+    margin-top: 30px;
+}
